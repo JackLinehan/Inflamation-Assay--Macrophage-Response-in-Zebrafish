@@ -13,13 +13,23 @@ The program will ask you how many files you want to load: Enter in the number of
 ">> Main"
  How many tracking files do you wish to load?:  (enter the number here)
 The program will now return to you the following: 
+
 	angle_d – angle of orientation defined by tan^(-1)⁡〖y/x〗 stored by nested cell array
+	
 	column_all_angles – all angles in one column vector: includes all tracks files 
+	
 	column_speed – all instantaneous speeds in one column vector includes all tracks files
+	
 	directional_autocorrelation_function: nested cell array
+	
 	my_angles_row_per_fish: all the orientation angles for each fish in their own vectors. 
+	
 	my_normalized_speed: The ratio of each speed to the largest speed in the tracks file. 
+	
 	my_speed_row_per_fish: All speeds in vector for each fish. 
+	
 	Speed: nested cell array so that each macrophages speed is recorded separately in each fish in every tracks files. 
+	
 	track_data: (t,x,y) data collected from tracks files. 
+	
 	turn_angles: Change in the angle of orientation of a macrophage between two points in time. Nested cell array. 
